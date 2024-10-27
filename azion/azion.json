@@ -1,0 +1,42 @@
+{
+  "name": "AnimeshHelloWorldApplication",
+  "bucket": "",
+  "preset": "javascript",
+  "env": "production",
+  "prefix": "20241027174303",
+  "not-first-run": true,
+  "function": {
+    "id": 31263,
+    "name": "__DEFAULT__",
+    "file": ".edge/worker.js",
+    "args": "azion/args.json",
+    "instance-id": 29950,
+    "instance-name": "__DEFAULT__",
+    "cache-id": 182296
+  },
+  "application": {
+    "id": 1730052205,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 1730050858,
+    "name": "AnimeshHelloWorldApplication",
+    "domain_name": "blm1chz3wf.map.azionedge.net",
+    "url": "https://blm1chz3wf.map.azionedge.net"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": [],
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 311866,
+        "name": "Execute Edge Function",
+        "phase": "request"
+      }
+    ]
+  },
+  "cache-settings": []
+}
