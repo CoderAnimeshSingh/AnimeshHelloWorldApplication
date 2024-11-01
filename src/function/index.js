@@ -6,7 +6,7 @@
  * @returns {Response} https://developer.mozilla.org/en-US/docs/Web/API/Response
  */
 async function handleRequest(request, args) {
-  const message = `Hello World!`;
+  const message = `Hello, Brazil! So only you could transform a pair of Havaianas into haute couture; coffee into kerosene; soccer into a faith! The next time you find yourself sitting in São Paulo traffic or wading barefoot in a rainstorm at an outdoor concert, just think (no one does like Brazil! Keep the ginga strong!`;
 
   return new Response(message, {
     headers: {
